@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 20px;
+}
+
+#bio {
+    padding;
+    20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+p {
+    font-size: 25px;
+}
+
+li {
+    display: inline;
+    word-spacing: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 80px;
+    margin: 8px auto;
+
+}
+
+aboutme {
+    padding-top: 100px;
+    display: table;
+    position: absolute;
+    height: 800px;
+    color: blue;
+    overflow: hidden;
+    opacity: 0.83;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+
+.menu {
+    font-family: cursive; 
+    position: fixed;
+    top: 0px;
+    
+    z-index: 10;
+    cursor: alias;
+    width: 100%;
+    margin-top: 0px;
+    background-color: red;
+    padding-top: 50px;
+}
+
+.links:hover {
+    background-color: crimson;
+    color: darkred;
+    font-size: 30px;
+}
+
+.links {
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: cursive;
+    word-spacing: 10px;
+}
